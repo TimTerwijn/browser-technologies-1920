@@ -7,7 +7,6 @@ Langzaam internet
 Geen Javascript
 Geen cookies en Local storage
 
-
 # Geteste Devices en browsers
 ## Chrome versie 80, Windows 10
 ### Afbeeldingen uitzetten
