@@ -40,7 +40,7 @@ Precies het zelfde als met Appli ipod, alleen zijn de images die flippen dubbel.
 Hier doet ie het wel, maar omdat ik geen toetsenbord heb werkt ie niet. Ook is het scherm te klein waardoor de pagina niet goed is.
 
 # Screenreader test
-
+Omdat ik P gebruik kan ik alles voorlezen. Maar het probleem is dat ik geen gebruik kan maken van de pijltjes toetsen.
 
 # Oplossingen
 
