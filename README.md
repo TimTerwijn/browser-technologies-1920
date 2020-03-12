@@ -40,7 +40,7 @@ Precies het zelfde als met Apple ipod, alleen zijn de images die flippen als je 
 Hier doet ie het wel kwa css, maar omdat ik geen toetsenbord heb werkt ie niet. Ook is het scherm te klein waardoor de pagina niet goed is.
 
 # Screenreader test
-Omdat ik <p> gebruik kan ik alles voorlezen. Maar het probleem is dat ik geen gebruik kan maken van de pijltjes toetsen omdat de reader deze nodig heeft.
+Omdat ik gebruik maak van p kan ik alles voorlezen. Maar het probleem is dat ik geen gebruik kan maken van de pijltjes toetsen omdat de reader deze nodig heeft.
 
 # Oplossingen
 * Spel moet werken met de muis
