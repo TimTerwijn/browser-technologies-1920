@@ -34,13 +34,17 @@ Ik zie mijn player en de kaart, maar voor de rest werkt er niet zo veel.
 Precies het zelfde als met internet explorer. Ook kan ik het niet besturen omdat ik geen toetsenbord heb.
 
 ## Safari, ipod 6.1.6
-Precies het zelfde als met Appli ipod, alleen zijn de images die flippen dubbel.
+Precies het zelfde als met Apple ipod, alleen zijn de images die flippen als je loopt nu dubbel.
 
 ## Chrome 75, LG Nexus 5
-Hier doet ie het wel, maar omdat ik geen toetsenbord heb werkt ie niet. Ook is het scherm te klein waardoor de pagina niet goed is.
+Hier doet ie het wel kwa css, maar omdat ik geen toetsenbord heb werkt ie niet. Ook is het scherm te klein waardoor de pagina niet goed is.
 
 # Screenreader test
-Omdat ik P gebruik kan ik alles voorlezen. Maar het probleem is dat ik geen gebruik kan maken van de pijltjes toetsen.
+Omdat ik <p> gebruik kan ik alles voorlezen. Maar het probleem is dat ik geen gebruik kan maken van de pijltjes toetsen omdat de reader deze nodig heeft.
 
 # Oplossingen
+* Spel moet werken met de muis
+* alt tekst voor images
+* Html+Css element alternatief voor images.
+
 
