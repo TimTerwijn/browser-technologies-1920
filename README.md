@@ -33,11 +33,11 @@ Ik zie mijn player en de kaart, maar voor de rest werkt er niet zo veel.
 ## Safari, Apple ipad
 Precies het zelfde als met internet explorer. Ook kan ik het niet besturen omdat ik geen toetsenbord heb.
 
+## Safari, ipod 6.1.6
+Precies het zelfde als met Appli ipod, alleen zijn de images die flippen dubbel.
 
-
-## D2
-## D3
-
+## Chrome 75, LG Nexus 5
+Hier doet ie het wel, maar omdat ik geen toetsenbord heb werkt ie niet. Ook is het scherm te klein waardoor de pagina niet goed is.
 
 # Screenreader test
 
