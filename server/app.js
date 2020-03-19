@@ -18,8 +18,23 @@ app.use(express.urlencoded()); // to support URL-encoded bodies
 // ROUTES!!!
 
 
-// GET 
+// GET first image on main page
 app.get('/', function(req, res) {
+  res.redirect('/image/0');
+});
+
+// GET image name by id
+app.get('/image/:id', function(req, res) {
+  //get image
+  const id = req.params.id;
+  const imageName = require("./modules/Images.js").getImageNameById(id);
+
+  res.render('index', {"imageName": imageName});
+});
+
+// POST upload new image 
+app.post('/insert-image', function(req, res) {
+   
   res.render('index', null);
 });
 
