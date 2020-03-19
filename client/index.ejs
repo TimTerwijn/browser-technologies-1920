@@ -6,7 +6,18 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <img src="/img/<%= imageName %>.jpg"/>
+    <main>
+      <section>
+        <a href="/">Home</a>
+      </section>
+      <section>
+        <img src="/img/<%= imageName %>.jpg"/>
+      </section>
+      <section>
+        <p id="#imageDescription"><%= imageName %></p>
+        <a href="/" class="button"><p>Voeg toe</p></a>
+      </section>
+    </main>
     <script type="module" src="/js/app.js"></script>
   </body>
 </html>
