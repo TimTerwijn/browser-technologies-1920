@@ -8,14 +8,18 @@
   <body>
     <main>
       <section>
-        <a href="/">Home</a>
+        <a href="#">Home</a>
       </section>
       <section>
-        <img src="/img/<%= imageName %>.jpg"/>
+        <a href="/image/<%= nextId %>">
+          <img src="/img/<%= imageName %>.jpg"/>
+        </a>
       </section>
       <section>
         <p id="#imageDescription"><%= imageName %></p>
-        <a href="/" class="button"><p>Voeg toe</p></a>
+        <a href="#" class="button">
+          <p>Voeg toe</p>
+        </a>
       </section>
     </main>
     <script type="module" src="/js/app.js"></script>

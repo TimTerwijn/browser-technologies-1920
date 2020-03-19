@@ -25,11 +25,12 @@ app.get('/', function(req, res) {
 
 // GET image name by id
 app.get('/image/:id', function(req, res) {
-  //get image
+  //get image name
   const id = req.params.id;
-  const imageName = require("./modules/Images.js").getImageNameById(id);
+  const images = require("./modules/Images.js");
+  const imageName = images.getImageNameById(id);
 
-  res.render('index', {"imageName": imageName});
+  res.render('index', {"imageName": imageName, "nextId" : images.getNextID()});
 });
 
 // POST upload new image 
