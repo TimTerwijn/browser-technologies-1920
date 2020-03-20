@@ -8,10 +8,10 @@
 I don't get Heroku to work because the server folder is not my real root folder. How can I solve this?
 
 ### The carousel
-The server works and the carousel is almost functional, I need to fix it on a ios device. Any ideas to make it work on a device without back buttons?
+The server works and the carousel is almost functional, I need to fix it on an Ios device. Any ideas to make it work on a device without back buttons?
 
 ### The readme & task 1.2
-Do i need more things to make it more complete?
+Do I need more things to make it more complete?
 
 ## Autor
 Tim Terwijn
