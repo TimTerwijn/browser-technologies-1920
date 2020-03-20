@@ -1,48 +1,50 @@
-# Live demo
-https://timterwijn.github.io/project-1-1920/
+# Foto App
 
-# Geteste features
-## Afbeeldingen uitzetten
-Zonder afbeeldingen werkt de aplicatie nog wel, helaas zie je de images van de speler niet en de boeken. Ik zou dit kunnen oplossen door een html+css element boek te maken die ik als placeholder gebruik als er geen images zijn. 
+# Task 1.2
+[Task 1.2](/docs/onderzoek.md)
 
-## Custom fonds
-Hij veranderde naar het default font. Dus geen probleem.
+# 3 important things
+## What makes me proud
+The server works and the App is almost functional except add image and go to previous image on a Apple device.
 
-## Geen toetsenbord
-Je kan de app op dit moment niet gebruiken zonder toetsenbord. Leuk voor dit vak zou zijn om de app ook met muis te laten werken.
+## Where am I stuck
+I don't get Heroku to work because the server folder is not my real root folder.
 
-## Geen kleur
-Door de textshadow is alles nog goed te lezen.
+## How did I solve a problem
+I thought why don't I make the image onclick go to the next image and use the back button to se the previous image, but then I was told that Apple devices don't have a back button.
 
-## Langzaam internet
-App werkt prima, en is erg snel.
+# Autor
+Tim Terwijn
 
-## Geen Javascript
-Ik zie wat, maar niks werkt. Ik zou dit kunnen fixen door alles serverside te kunnen renderen.
+## Demo:
+I was not able to get Heroku working.
 
-## Geen cookies en Local storage
-Hier maak ik geen gebruik van. Dus er is niks aan de hand.
+## Description
+With this app you can add pictures of your holiday. Then you can look switch trough your images like a carousel.
 
-# Geteste Devices en browsers
-## Chrome versie 80, Windows 10
-App werkt perfect.
+## Logo
+![Logo](/docs/logo.png)
 
-## Firefox 74.0, Windows 10
-App werkt net zo goed als op chrome.
+## Table of contents
+* [Install guide](#install-guide)
+* [How to use](#how-to-use)
+* [What API did I use](#what-api-did-i-use)
+* [Roadmap](#roadmap)
 
-## Internet explorer 11.0, Windows 10
-Ik zie mijn player en de kaart, maar voor de rest werkt er niet zo veel omdat ik gebruik maak van grid. Ik zou dit opkunnen lossen door een fallback te maken.  
- 
-## Safari, Apple ipad
-Precies het zelfde als met internet explorer. Ook kan ik het niet besturen omdat ik geen toetsenbord heb. (Zie kopje Geen toetsenbord.)
+## Install guide
+### Requirements
+* Clone or download the repository $ git clone https://github.com/TimTerwijn/browser-technologies-1920.git
+* Open server folder with VSCode.
+* Open terminal en enter npm install.
+* Enter npm start in terminal.
+* Go to http://localhost:3000/ to use the app.
 
-## Safari, ipod 6.1.6
-Precies het zelfde als met Apple ipod, alleen zijn de images die flippen als je loopt nu dubbel. Ook hier had ik een fallback kunnen maken.
+## How to use
+* Click on an image to see the next image
+* Click on the back button to see the previous image.
 
-## Chrome 75, LG Nexus 5
-Hier doet ie het wel kwa css, maar omdat ik geen toetsenbord heb werkt ie niet. (Zie kopje Geen toetsenbord.) Ook is het scherm te klein waardoor de pagina niet goed is. Ik had dit kunnen fixen met media queries.
-
-# Screenreader test
-Omdat ik gebruik maak van p kan ik alles voorlezen. Maar het probleem is dat ik geen gebruik kan maken van de pijltjes toetsen omdat de reader deze nodig heeft. Ik zou dit kunnen fixen met anchors en de muis. (Zie kopje Geen toetsenbord.)
-
-
+## Road map
+* Work on add image function.
+* Arrow buttons to navigate trough images.
+* Add the other layers.
+* Make App Responsive.
