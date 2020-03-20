@@ -3,15 +3,15 @@
 ## Task 1.2
 [Task 1.2](/docs/onderzoek.md)
 
-## 3 important things
-### What makes me proud
-The server works and the App is almost functional except add image and go to previous image on a Apple device.
+## 3 things i want feedback on
+### Heroku
+I don't get Heroku to work because the server folder is not my real root folder. How can I solve this?
 
-### Where am I stuck
-I don't get Heroku to work because the server folder is not my real root folder.
+### The carousel
+The server works and the carousel is almost functional, I need to fix it on a ios device. Any ideas to make it work on a device without back buttons?
 
-### How did I solve a problem
-I thought why don't I make the image onclick go to the next image and use the back button to se the previous image, but then I was told that Apple devices don't have a back button.
+### The readme & task 1.2
+Do i need more things to make it more complete?
 
 ## Autor
 Tim Terwijn
