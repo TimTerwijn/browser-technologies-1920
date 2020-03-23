@@ -44,7 +44,7 @@ app.get('/image/:id', function(req, res) {
   const images = require("./modules/Images.js");
   const imageName = images.getImageNameById(id);
 
-  res.render('index', {"imageName": imageName, "nextId" : images.getNextID()});
+  res.render('index', {"imageName": imageName, "lastId" : images.getLastId(), "nextId" : images.getNextId()});
 });
 
 // POST upload new image 
