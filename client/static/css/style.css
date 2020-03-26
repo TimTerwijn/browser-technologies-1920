@@ -3,6 +3,8 @@
 body{
   font-size: 2rem;
   margin: 0;
+  background-image: url("../img/background.jpg");
+  color: wheat;
 }
 
 img{
@@ -11,8 +13,19 @@ img{
   margin-top: 9px;
 }
 
-p{
+p, span{
   margin: 0;
+  color: wheat;
+}
+
+a{
+  color: rgba(0, 240, 240, 1);
+  text-decoration: none;
+}
+
+input{
+  display: block;
+  margin: 0.5rem 0 0.5rem 5px;
 }
 
 .left{
@@ -23,6 +36,16 @@ p{
   float: right;
 }
 
+.button{
+  background-color: rgba(255, 0, 255, 0.22);
+  border: 2px solid #ffa600;
+  padding: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
+  border-radius: 4rem;
+  min-width: 38%;
+  text-align: center;
+}
+
 /* WEBPAGE */
 
 main{
@@ -31,31 +54,18 @@ main{
 
 /* Image description container */
 main>section:nth-child(1)>*:nth-child(1){
-  margin-left: 5px;
+  margin-left: 1rem;
   text-decoration: none;
 }
 
 /* Image description container */
-main>section:nth-child(3){
+main>section:nth-child(4){
 
-}
-
-.button{
-  color: black;
-  background-color: aqua;
-  border: 2px solid black;
-  padding: 0 5px 0 5px;
-  margin: 0 5px 0 5px;
-  text-decoration: none;
-  border-radius: 4rem;
-  min-width: 38%;
-  text-align: center;
 }
 
 /* Image description text */
-main>section:nth-child(3)>p{
-  margin-top: 0.4rem;
-  max-width: 50%;
-  margin-left: 5px;
+main>section:nth-child(4)>p{
+  max-width: 49%;
+  margin-left: 1rem;
 }
 

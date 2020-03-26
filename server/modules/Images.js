@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 //inspired by https://stackoverflow.com/a/2727191
-const folder = '../client/static/img/';
+const folder = '../client/static/img/uploaded/';
 let lastID = 0; //todo: all users have the same id, fix it by sending the user current id
 
 module.exports = {
