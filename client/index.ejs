@@ -2,7 +2,9 @@
 <html lang="nl" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Foto App</title>
+    <meta name="description" content="An app where you can see pictures">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -11,13 +13,19 @@
         <a href="#">Home</a>
       </section>
       <section>
+        <a href="/image/<%= lastId %>" class="button left">
+          <p>Terug</p>
+        </a>
+        <a href="/image/<%= nextId %>" class="button right">
+          <p>Volgende</p>
+        </a>
         <a href="/image/<%= nextId %>">
           <img src="/img/<%= imageName %>"/>
         </a>
       </section>
       <section>
-        <p id="#imageDescription"><%= imageName %></p>
-        <a href="/insert-image" class="button">
+        <p id="#imageDescription" class="left"><%= imageName %></p>
+        <a href="/insert-image" class="button right">
           <p>Voeg toe</p>
         </a>
       </section>
