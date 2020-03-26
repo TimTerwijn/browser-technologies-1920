@@ -2,7 +2,7 @@
 
 body{
   font-size: 2rem;
-  margin: 0;
+  margin: 0.2rem 0 0 0;
   background-image: url("../img/background.jpg");
   color: wheat;
 }
@@ -23,11 +23,6 @@ a{
   text-decoration: none;
 }
 
-input{
-  display: block;
-  margin: 0.5rem 0 0.5rem 5px;
-}
-
 .left{
   float: left;
 }
@@ -39,8 +34,8 @@ input{
 .button{
   background-color: rgba(255, 0, 255, 0.22);
   border: 2px solid #ffa600;
-  padding: 0 5px 0 5px;
-  margin: 0 5px 0 5px;
+  padding: 0 5px;
+  margin: 0 5px;
   border-radius: 4rem;
   min-width: 38%;
   text-align: center;
@@ -55,7 +50,6 @@ main{
 /* Image description container */
 main>section:nth-child(1)>*:nth-child(1){
   margin-left: 1rem;
-  text-decoration: none;
 }
 
 /* Image description container */

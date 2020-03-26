@@ -1,0 +1,21 @@
+@supports(display: flex){
+    .left, .right{
+        float: none;
+    }
+
+    .button{
+        margin: 0;
+    }
+
+    main>section:not(:nth-child(1)){
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+    }
+
+    /* Image description text */
+    main>section:nth-child(4)>p{
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
