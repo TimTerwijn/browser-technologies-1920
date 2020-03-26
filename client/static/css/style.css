@@ -8,6 +8,7 @@ body{
 img{
   width: 100%;
   max-height: 68vh;
+  margin-top: 9px;
 }
 
 p{
@@ -29,8 +30,9 @@ main{
 }
 
 /* Image description container */
-main>section:nth-child(1)>a{
+main>section:nth-child(1)>*:nth-child(1){
   margin-left: 5px;
+  text-decoration: none;
 }
 
 /* Image description container */
@@ -43,7 +45,7 @@ main>section:nth-child(3){
   background-color: aqua;
   border: 2px solid black;
   padding: 0 5px 0 5px;
-  margin: 5px;
+  margin: 0 5px 0 5px;
   text-decoration: none;
   border-radius: 4rem;
   min-width: 38%;

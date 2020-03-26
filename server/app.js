@@ -56,7 +56,7 @@ app.get('/insert-image', function(req, res) {
 // POST upload new image 
 app.post('/insert-image', uploadDisk.single("picture"), (req, res) => {
   console.log(" file disk uploaded");
-  res.send("file disk upload success");
+  res.redirect('/image/0');
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
