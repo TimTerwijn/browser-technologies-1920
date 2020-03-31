@@ -13,7 +13,7 @@ I will work with Ngrok, the url for the demo is: ... (I will provide the teacher
 With this app you can add pictures of your holiday. Then you can look switch trough your images like a carousel.
 
 ### Logo
-![layer3](/docs/layer3.PNG)
+![layer3](/docs/layer2.5.PNG)
 
 ### Table of contents
 * [Install guide](#install-guide)
