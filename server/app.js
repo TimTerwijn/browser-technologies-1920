@@ -18,7 +18,7 @@ app.use(express.urlencoded()); // to support URL-encoded bodies
 
 const storage = multer.diskStorage({
   destination: function(req, file, cb) {
-    cb(null, "../client/static/img/"); //here we specify the destination. in this case i specified the current directory
+    cb(null, "../client/static/img/uploaded/"); //here we specify the destination. in this case i specified the current directory
   },
   filename: function(req, file, cb) {
     console.log(file); //log the file object info in console
@@ -60,7 +60,7 @@ app.get('/insert-image', function(req, res) {
 // POST upload new image 
 app.post('/insert-image', uploadDisk.single("picture"), (req, res) => {
   console.log(" file disk uploaded");
-  res.redirect('/image/0');
+  res.redirect('/');
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
