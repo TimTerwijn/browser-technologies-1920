@@ -70,8 +70,10 @@ I used 4 layers for this application.
 ### Feature detection
 I used @support to check if the client could use flexboxes. Also I add a id to the main element with javascript to ensure that I only make use of the layer 3 css if there is javascript.
 
-### Road map
-* Work on add image function.
-* Arrow buttons to navigate trough images.
-* Add the other layers.
-* Make App Responsive.
+### Road map (and feedback)
+* ~~Work on add image function.~~~
+* ~~Arrow buttons to navigate trough images.~~
+* Enhancment to Preview images on add image.
+* Style browse button on add image.
+* Navigate the images with beads.
+* Keep images in scale
