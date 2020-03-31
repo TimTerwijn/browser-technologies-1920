@@ -13,7 +13,7 @@ I will work with Ngrok, the url for the demo is: ... (I will provide the teacher
 With this app you can add pictures of your holiday. Then you can look switch trough your images like a carousel.
 
 ### Logo
-![Logo](/docs/logo.png)
+![layer3](/docs/layer2.5.PNG)
 
 ### Table of contents
 * [Install guide](#install-guide)
@@ -56,16 +56,16 @@ The can also been used by screen readers because I used alt attributes for my im
 I used 4 layers for this application.
 
 * The first layer is pure functionality without style and scripts. The site looks bad but it works
-![layer1](/docs/layer1.png)
+![layer1](/docs/layer1.PNG)
 
 * The second layer is with css for older browser so that they can also see some nice layouts.  
-![layer2](/docs/layer2.png)
+![layer2](/docs/layer2.PNG)
 
 * The second and a half layer is with advanced css for newer browsers. I made use of flexboxes with the help of a @support
-![layer2.5](/docs/layer2.5.png)
+![layer2.5](/docs/layer2.5.PNG)
 
 * The third and last layer is for javascript to add some nice transition when someone presses one of the buttons or image.
-![layer3](/docs/layer3.png)
+![layer3](/docs/layer3.PNG)
 
 ### Feature detection
 I used @support to check if the client could use flexboxes. Also I add a id to the main element with javascript to ensure that I only make use of the layer 3 css if there is javascript.
