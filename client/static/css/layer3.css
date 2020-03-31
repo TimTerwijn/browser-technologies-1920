@@ -1,0 +1,16 @@
+#layer3Main>section:nth-child(3)>a>#selectedImage{
+    opacity: 1;
+    position: relative;
+}
+
+/* images */
+#layer3Main>section:nth-child(3)>a>img:not(:first-child){
+    display: block;
+}
+
+/* images */
+#layer3Main>section:nth-child(3)>a>img{
+    opacity: 0;
+    transition:opacity 1s linear;
+    position: absolute;
+}

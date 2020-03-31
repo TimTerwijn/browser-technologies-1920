@@ -1,4 +1,9 @@
 function init(){
+    
+    //enable layer 3 css
+    const main = document.querySelector("main");
+    main.id = "layer3Main";
+    
     const newImage = document.querySelector("main>section:nth-child(3)>a>img:first-child");
     newImage.id = "selectedImage"; 
     
@@ -88,8 +93,15 @@ function blockButtons(){
 
 function enableButtons(){
     //get buttons
+    const imgButton = document.querySelector("main>section:nth-child(3)>a");
     const nextButton = document.querySelector("main>section:nth-child(2)>a:nth-child(2)");
     const previousButton = document.querySelector("main>section:nth-child(2)>a:nth-child(1)");
+
+    // remove anchor functions & set onclicks
+    imgButton.onclick = function(){
+        event.preventDefault();
+        nextImage();
+    }
     
     // remove anchor functions & set onclicks
     nextButton.onclick = function(){

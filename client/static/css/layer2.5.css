@@ -1,22 +1,10 @@
 @supports(display: flex){
-    #selectedImage{
-        opacity: 1;
-        position: relative;
-    }
-    
     .left, .right{
         float: none;
     }
 
     .button{
         margin: 0;
-    }
-
-    /* images */
-    main>section:nth-child(3)>a>img{
-        opacity: 0;
-        transition:opacity 1s linear;
-        position: absolute;
     }
 
     /* first section element should not be flex */
