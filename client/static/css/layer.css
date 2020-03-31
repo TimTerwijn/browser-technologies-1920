@@ -1,6 +1,7 @@
 @supports(display: flex){
-    .hidden{
-        opacity: 0;
+    #selectedImage{
+        opacity: 1;
+        position: relative;
     }
     
     .left, .right{
@@ -16,12 +17,6 @@
         opacity: 0;
         transition:opacity 1s linear;
         position: absolute;
-    }
-
-    /* first image */
-    main>section:nth-child(3)>a>img:nth-child(1){
-        opacity: 1;
-        position: relative;
     }
 
     /* first section element should not be flex */
