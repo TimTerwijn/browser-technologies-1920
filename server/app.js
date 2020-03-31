@@ -34,17 +34,21 @@ const uploadDisk = multer({ storage: storage });
 
 // GET first image on main page
 app.get('/', function(req, res) {
-  res.redirect('/image/0');
+  //get image name
+  const imageObject = require("./modules/Images.js");
+  const images = imageObject.getAllImages();
+
+  res.render('index', {"images": images, "lastId" : imageObject.getLastId(), "nextId" : imageObject.getNextId()});
 });
 
 // GET image name by id
 app.get('/image/:id', function(req, res) {
   //get image name
   const id = req.params.id;
-  const images = require("./modules/Images.js");
-  const imageName = images.getImageNameById(id);
+  const imageObject = require("./modules/Images.js");
+  const imageSource = imageObject.getImageNameById(id);
 
-  res.render('index', {"imageName": imageName, "lastId" : images.getLastId(), "nextId" : images.getNextId()});
+  res.render('index', {"images": [imageSource], "lastId" : imageObject.getLastId(), "nextId" : imageObject.getNextId()});
 });
 
 // POST upload new image 

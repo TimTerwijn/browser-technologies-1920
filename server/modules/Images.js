@@ -5,6 +5,10 @@ const folder = '../client/static/img/uploaded/';
 let lastID = 0; //todo: all users have the same id, fix it by sending the user current id
 
 module.exports = {
+    getAllImages(){
+        return fs.readdirSync(folder);
+    },
+
     getImageNameById(id){
         const imagesArray = fs.readdirSync(folder)
 

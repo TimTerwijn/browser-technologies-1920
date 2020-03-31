@@ -19,11 +19,13 @@
       </section>
       <section>
         <a href="/image/<%= nextId %>">
-          <img src="/img/uploaded/<%= imageName %>"/>
+          <% images.forEach((image) => { %>
+            <img src="/img/uploaded/<%= image %>"/>
+          <% }) %>
         </a>
       </section>
       <section>
-        <p id="#imageDescription" class="left"><%= imageName %></p>
+        <p id="#imageDescription" class="left"><%= images[0] %></p>
         <a href="/insert-image" class="button right">Voeg toe</a>
       </section>
     </main>
