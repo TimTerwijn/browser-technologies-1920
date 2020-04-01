@@ -7,7 +7,7 @@
 Tim Terwijn
 
 ### Demo:
-I will work with Ngrok, the url for the demo is: ... (I will provide the teacher with my URL during the presentation.)
+I will work with Ngrok, the url for the demo is: https://5277b6bf.ngrok.io  (I will provide the teacher with my URL during the presentation.)
 
 ### Description
 With this app you can add pictures of your holiday. Then you can look trough your images as a carousel. The app has to work on multiple browsers, and the core functionalists has to work on all browsers. By first working on the core functionalists in plain html and server side JS, I was able to overcome this requirement pretty easy with progressive enhancement instead of graceful degradation.
