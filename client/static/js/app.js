@@ -1,3 +1,5 @@
+import * as controller from "./modules/Controller.js";
+
 function init(){
     
     //enable layer 3 css
@@ -116,3 +118,8 @@ function enableButtons(){
 }
 
 init();
+
+export{
+    nextImage,
+    previousImage,
+}
