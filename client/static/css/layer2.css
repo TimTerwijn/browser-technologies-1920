@@ -31,6 +31,10 @@ a{
   float: right;
 }
 
+.hidden{
+  display: none !important;
+}
+
 .button{
   background-color: rgba(255, 0, 255, 0.22);
   border: 2px solid #ffa600;
@@ -71,4 +75,3 @@ main>section:nth-child(4)>p{
   max-width: 49%;
   margin-left: 1rem;
 }
-

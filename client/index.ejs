@@ -14,7 +14,7 @@
       <section>
         <p>Home</p>
       </section>
-      <section>
+      <section class="hidden">
         <a href="/image/<%= lastId %>" class="button left">Terug</a>
         <a href="/image/<%= nextId %>" class="button right">Volgende</a>
       </section>
@@ -30,6 +30,7 @@
         <a href="/insert-image" class="button right">Voeg toe</a>
       </section>
     </main>
-    <script type="module" src="/js/app.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/modules/controller.js"></script>
   </body>
 </html>
