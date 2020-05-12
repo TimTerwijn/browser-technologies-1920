@@ -23,6 +23,9 @@ function nextImage(){
     //find the next image
     let nextImage = currentImage.nextElementSibling;
 
+    //set image name
+    showImageName(nextImage);
+
     //check next image
     if(nextImage !== null){
         currentImage.id = null; 
@@ -60,6 +63,9 @@ function previousImage(){
         previousImage = document.querySelector("main>section:nth-child(3)>a>img:last-child");
     }
 
+    //set image name
+    showImageName(previousImage);
+
     //move previous image under current image for a effect
     currentImage.insertAdjacentElement("afterend", previousImage);
     blockButtons();
@@ -77,6 +83,19 @@ function previousImage(){
             enableButtons();
         }, 1500);
     }, 100);
+}
+
+function showImageName(imageElement){
+    let name = imageElement.src;
+    
+    //remove folders
+    name = name.substr(35);
+
+    //remove spaces
+    name = name.replace(/%20/g,' ');
+
+    const imageDescription = document.getElementById("imageDescription");
+    imageDescription.innerText = name;
 }
 
 function blockButtons(){
