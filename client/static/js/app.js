@@ -1,14 +1,17 @@
 function init(){
-    
-    //enable layer 3 css
-    const main = document.querySelector("main");
-    main.id = "layer3Main";
-    
-    const newImage = document.querySelector("main>section:nth-child(3)>a>img:first-child");
-    newImage.id = "selectedImage"; 
-    
-    //fix all the buttons
-    enableButtons();
+
+    //Check if using modern browser
+    if(document.createElement("p").style.grid !== undefined){
+        //enable layer 3 css
+        const main = document.querySelector("main");
+        main.id = "layer3Main";
+        
+        const newImage = document.querySelector("main>section:nth-child(3)>a>img:first-child");
+        newImage.id = "selectedImage"; 
+        
+        //fix all the buttons
+        enableButtons();
+    }
 };
 
 function nextImage(){

@@ -1,4 +1,6 @@
-@supports(display: flex){
+@supports(display: grid){
+    /* Remove IE items */
+    
     .left, .right{
         float: none;
     }
@@ -12,6 +14,13 @@
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: space-evenly;
+    }
+
+    main>section:nth-child(3)>a{
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+        width: initial;
     }
 
     /* Image description text */
