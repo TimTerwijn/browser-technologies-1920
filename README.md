@@ -41,6 +41,7 @@ With this app you can add pictures of your holiday. Then you can look trough you
 You can test the wireflow live with the Balsamiq file in the docs folder.  
   
 Here is an image of that wireflow.  
+  
 ![Wireflow](/docs/Wireflow.png)
 
 ### User experience
@@ -56,13 +57,16 @@ The can also been used by screen readers because I used alt attributes for my im
 ### Progressive enhancement
 I used 4 layers for this application.  
 
-* The first (functional) layer is made for internet explorer. I used block elements for this version and centered the image with old css. If you go to the next image the page has to refresh.  
+* The first (functional) layer is made for internet explorer. I used block elements for this version and centered the image with old css. If you go to the next image the page has to refresh. 
+  
 ![layer1](/docs/layer1.PNG)
 
 * I made use of a flex box in the second (usable) layer, This makes it better to center the image. I checked with a @supports if the user uses a modern browser (Chrome 57+, Firefoxe 52+).  
+  
 ![layer2](/docs/layer2.PNG)
 
 * For the third (pleasureable) layer it is possable to stay on the same page if a user presses the next button. It is even possible for mobile users to swipe to a new image instead of using the buttons.  
+  
 ![layer2.5](/docs/layer2.5.PNG)
 ![layer3](/docs/layer3.PNG)
 
