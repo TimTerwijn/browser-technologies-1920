@@ -61,7 +61,7 @@ I used 4 layers for this application.
   
 ![layer1](/docs/layer1.PNG)
 
-* I made use of a flex box in the second (usable) layer, This makes it better to center the image. I checked with a @supports if the user uses a modern browser (Chrome 57+, Firefoxe 52+).  
+* I made use of a flex box in the second (usable) layer, this centers the page better in my opinion. I checked with a @supports if the user uses a modern browser (Chrome 57+, Firefoxe 52+).  
   
 ![layer2](/docs/layer2.PNG)
 
