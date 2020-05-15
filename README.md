@@ -46,7 +46,6 @@ Here is an image of that wireflow.
 ### User experience
 The user is able to use the keyboard in the application because I made use of anchor elements who are focus able.  
 The can also been used by screen readers because I used alt attributes for my images, also I made use of anchor and p elements.    
-
 ### Difficulties
 1. Working serverside was new and confusing for me. I fixed it by making two folders to separate the files.
 2. Putting the code online was quite hard for me, because I did not understand Heroku, I got feedback how to do it, but because of time issues, for the demo I will use something I am familiar with. Ngrok.
@@ -57,25 +56,25 @@ The can also been used by screen readers because I used alt attributes for my im
 ### Progressive enhancement
 I used 4 layers for this application.  
 
-* The first layer is pure functionality without style and scripts. The site looks bad but it works.  
+* The first (functional) layer is made for internet explorer. I used block elements for this version and centered the image with old css. If you go to the next image the page has to refresh.  
 ![layer1](/docs/layer1.PNG)
 
-* The second layer is with css for older browsers, so that those users can also see a decent layout.  
+* I made use of a flex box in the second (usable) layer, This makes it better to center the image. I checked with a @supports if the user uses a modern browser (Chrome 57+, Firefoxe 52+).  
 ![layer2](/docs/layer2.PNG)
 
-* The second and a half layer is with advanced css for newer browsers. I made use of several flexboxes with the help of a css @support.  
+* For the third (pleasureable) layer it is possable to stay on the same page if a user presses the next button. It is even possible for mobile users to swipe to a new image instead of using the buttons.  
 ![layer2.5](/docs/layer2.5.PNG)
-
-* The third and last layer is for javascript to add some nice transition when someone presses one of the buttons or image.  
 ![layer3](/docs/layer3.PNG)
 
-### Feature detection
-I used @support to check if the client could use flexboxes. Also I add a id to the main element with javascript to ensure that I only make use of the layer 3 css if there is javascript.
+### Browser test
+The application works in the following browsers:
+* Google Chrome.
+* Firefox.
+* Internet Explorer.
 
-### Road map (and feedback)
-* ~~Work on add image function.~~
-* ~~Arrow buttons to navigate trough images.~~
-* Enhancment to Preview images on add image.
-* Style browse button on add image.
-* Navigate the images with beads.
-* Keep images in scale
+### Feature detection
+* I used @support to check if the client could use grids, or else use old css to center image.
+* I check the screen size to check if the user is a mobile user, then I hide the next image buttons.
+
+### Wishlist
+Remove screen size feature detect. Both mobile and desktop users see the next image button.
